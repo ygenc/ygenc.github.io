@@ -1,2 +1,12 @@
+markdown: rdiscount
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
+
+gems:
+  - jekyll-sitemap
+
 name: Yegin Genc
-markdown: kramdown
+url: http://ygenc.github.io/
+description: Personal Website.
+twitter: ygenc

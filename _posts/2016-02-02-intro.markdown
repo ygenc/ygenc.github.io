@@ -1,0 +1,12 @@
+---
+layout: post
+title: Intro
+category: intro
+---
+
+I'm an Assistant Professor of Business Analytics and Computer Information Systems at [Manhattan College][Manhattan].
+
+
+
+[Manhattan]: https://manhattan.edu/faculty/yegingenc
+ 

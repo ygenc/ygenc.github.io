@@ -1,0 +1,28 @@
+---
+layout: layout
+title: "Posts"
+---
+
+
+
+<section class="content">
+
+	<p  style="margin-top:140px"> </p>
+	
+
+	{% for post in site.categories.teachingintro %}
+	{{ post.content }}
+	{% endfor %}
+	
+  <ul class="listing">
+    {% for post in site.categories.teaching %}
+      {% unless post.draft %}
+      <li>
+<a href="{{ post.url }}">{{ post.title }}</a> 
+
+        <!-- <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a> -->
+      </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</section>

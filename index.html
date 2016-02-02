@@ -1,8 +1,29 @@
 ---
-layout: default
-title: Yegin Genc Personal Website
+layout: layout
+title: "Posts"
 ---
-<div class="blurb">
-	<h1>Hi there, I'm Yegin Genc</h1>
+
+
+
+<section class="content">
+
+	<p  style="margin-top:140px"> </p>
 	
-</div><!-- /.blurb -->
+
+	{% for post in site.categories.intro %}
+	{{ post.content }}
+	{% endfor %}
+	
+
+  <section class="meta">
+    <!--<h3>Discussion, links, and tweets</h3> -->
+
+
+
+
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
+      <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+  
+  </section>
+</section>
