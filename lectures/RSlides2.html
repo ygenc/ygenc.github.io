@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>More Data Structures</title>
+  <title></title>
     
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -794,9 +794,12 @@ hljs.initHighlightingOnLoad();
   <div class="slides">
 
 <section data-state="section" data-transition="linear" data-transition-speed="default">
-<h1>More Data Structures</h1><p>BUAN 227</p>
+<h1></h1><p></p>
 
-<div class="slideContent" >
+<div class="slideContent noTitle" >
+<h1>More Data Structures</h1>
+
+<h2>BUAN 227 <br> Yegin Genc</h2>
 
 </div>
 
@@ -1412,103 +1415,9 @@ or use <code>[[ ]]</code>, but only with a single index<br/>
 <section data-transition="linear" data-transition-speed="default">
 
 <div class="slideContent noTitle" >
-<pre><code class="r">a.matrix &lt;- matrix(c(35,8,10,4),nrow=2)
-colnames(a.matrix) &lt;- c(&quot;v1&quot;,&quot;v2&quot;)
-a.matrix
+<pre><code>Error in data.frame(a.matrix, logicals = c(TRUE, FALSE)) : 
+  object &#39;a.matrix&#39; not found
 </code></pre>
-
-<pre><code>     v1 v2
-[1,] 35 10
-[2,]  8  4
-</code></pre>
-
-<pre><code class="r">a.matrix[,&quot;v1&quot;]  # Try a.matrix$v1 and see what happens
-</code></pre>
-
-<pre><code>[1] 35  8
-</code></pre>
-
-</div>
-
-</section>
-<section data-transition="linear" data-transition-speed="default">
-
-<div class="slideContent noTitle" >
-<pre><code class="r">a.data.frame &lt;- data.frame(a.matrix,logicals=c(TRUE,FALSE))
-a.data.frame
-</code></pre>
-
-<pre><code>  v1 v2 logicals
-1 35 10     TRUE
-2  8  4    FALSE
-</code></pre>
-
-<pre><code class="r">a.data.frame$v1
-</code></pre>
-
-<pre><code>[1] 35  8
-</code></pre>
-
-<pre><code class="r">a.data.frame[,&quot;v1&quot;]
-</code></pre>
-
-<pre><code>[1] 35  8
-</code></pre>
-
-<pre><code class="r">a.data.frame[1,]
-</code></pre>
-
-<pre><code>  v1 v2 logicals
-1 35 10     TRUE
-</code></pre>
-
-<pre><code class="r">colMeans(a.data.frame)
-</code></pre>
-
-<pre><code>      v1       v2 logicals 
-    21.5      7.0      0.5 
-</code></pre>
-
-</div>
-
-</section>
-<section data-transition="linear" data-transition-speed="default">
-<h3>Adding rows and columns</h3>
-<div class="slideContent" >
-<p>We can add rows or columns to an array or data-frame with <code>rbind()</code> and <code>cbind()</code>, but be careful about forced type conversions</p>
-
-<pre><code class="r">rbind(a.data.frame,list(v1=-3,v2=-5,logicals=TRUE))
-</code></pre>
-
-<pre><code>  v1 v2 logicals
-1 35 10     TRUE
-2  8  4    FALSE
-3 -3 -5     TRUE
-</code></pre>
-
-<pre><code class="r">rbind(a.data.frame,c(3,4,6))
-</code></pre>
-
-<pre><code>  v1 v2 logicals
-1 35 10        1
-2  8  4        0
-3  3  4        6
-</code></pre>
-
-<p>*Internally, a dataframe is basically a list of vectors</p>
-
-</div>
-
-</section>
-<section data-transition="linear" data-transition-speed="default">
-<h3>Summary</h3>
-<div class="slideContent" >
-<ul>
-<li>Matrices act like you&#39;d hope they would</li>
-<li>Arrays add multi-dimensional structure to vectors</li>
-<li>Lists let us combine different types of data</li>
-<li>Dataframes are hybrids of matrices and lists, for classic tabular data</li>
-</ul>
 
 </div>
 

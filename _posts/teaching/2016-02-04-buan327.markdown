@@ -1,0 +1,17 @@
+---
+layout: post
+title: Advanced Business Analytics
+category: teaching
+---
+
+
+Lecture Slides:   
+* [Intro to R, and Data Types]({{relative}}/lectures/RSlides1){:target="_blank"}  
+* [More on Data Types]({{relative}}/lectures/RSlides2){:target="_blank"}  
+
+
+
+
+
+
+
