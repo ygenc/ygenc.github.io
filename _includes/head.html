@@ -23,4 +23,8 @@
   <link rel="apple-touch-icon" href="{{ site.github.url }}/apple-touch-icon.png" />
 
   <script type="text/javascript" src="{{ site.github.url }}/js/application.js"></script>
+  
+  {% assign lvl = page.url | append:'X' | split:'/' | size %}
+  {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+  
 </head>

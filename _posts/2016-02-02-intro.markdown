@@ -4,9 +4,10 @@ title: Intro
 category: intro
 ---
 
-I'm an Assistant Professor of Business Analytics and Computer Information Systems at [Manhattan College][Manhattan].
+I'm an Assistant Professor of Business Analytics and Computer Information Systems at [Manhattan College][Manhattan]. Before joining the Manhattan College, I was a PhD student at the Howe School of Technology Management (now [School of Business][Business School]) at [Stevens Institute of Technology][Stevens]
 
 
 
 [Manhattan]: https://manhattan.edu/faculty/yegingenc
- 
+[Business School]: http://www.stevens.edu/business/
+[Stevens]:http://www.stevens.edu
