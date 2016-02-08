@@ -8,7 +8,7 @@ category: teaching
 Lecture Slides:   
 * [Intro to R, and Data Types]({{relative}}/lectures/RSlides1){:target="_blank"}  
 * [More on Data Types]({{relative}}/lectures/RSlides2){:target="_blank"}  
-
+* [Descriptive Statistics with R]({{relative}}/lectures/RSlides3){:target="_blank"}  
 
 
 
