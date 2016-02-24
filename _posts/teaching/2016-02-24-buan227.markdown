@@ -1,0 +1,12 @@
+---
+layout: post
+title: Business Statistics
+category: teaching
+draft:true
+---
+
+
+Lecture Slides:   
+* [Intro to statistics, data types]({{relative}}/lectures/buan227/ch1/index.html){:target="_blank"}  
+
+

@@ -6,11 +6,11 @@ category: teaching
 
 
 Lecture Slides:   
-* [Intro to R, and Data Types]({{relative}}/lectures/RSlides1){:target="_blank"}  
-* [More on Data Types]({{relative}}/lectures/RSlides2){:target="_blank"}  
-* [Descriptive Statistics with R]({{relative}}/lectures/RSlides3){:target="_blank"}  
-* [Exploring Data with Graphics]({{relative}}/lectures/RSlides4){:target="_blank"}  
-
+* [Intro to R, and Data Types]({{relative}}/lectures/buan327/RSlides1){:target="_blank"}  
+* [More on Data Types]({{relative}}/lectures/buan327/RSlides2){:target="_blank"}  
+* [Descriptive Statistics with R]({{relative}}/lectures/buan327/RSlides3){:target="_blank"}  
+* [Exploring Data with Graphics]({{relative}}/lectures/buan/RSlides4){:target="_blank"}  
+* [Exploring Data with Graphics - example]({{relative}}/lectures/buan/RSlides4){:target="_blank"}  
 
 
 
