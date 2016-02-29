@@ -12,6 +12,6 @@ Lecture Slides:
 * [Exploring Data with Graphics]({{relative}}/lectures/buan/RSlides4){:target="_blank"}  
 <!-- * [Exploring Data with Graphics - example]({{relative}}/lectures/buan/RSlides4){:target="_blank"}  -->
 * [Control Structures and Functions]({{relative}}/lectures/buan327/RSlides5){:target="_blank"}  
-
+* [Probabilities]({{relative}}/lectures/buan327/RSlides6){:target="_blank"}  
 
 
