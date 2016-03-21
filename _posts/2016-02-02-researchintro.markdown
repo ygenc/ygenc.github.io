@@ -2,7 +2,7 @@
 layout: post
 title: Sample draft post
 category: researchintro
-draft:true
+draft: true
 ---
 
 My research interests include:
