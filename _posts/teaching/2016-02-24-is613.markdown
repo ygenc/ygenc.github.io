@@ -2,8 +2,10 @@
 layout: post
 title: Database Management
 category: teaching
+draft: true
 ---
 
 
 Lecture Slides:   
 * [Intro to SQL]({{relative}}/lectures/is613/introtosql.htm){:target="_blank"}  
+
