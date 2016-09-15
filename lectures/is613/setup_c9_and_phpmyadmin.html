@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!-- saved from url=(0127)https://cdn.c9.io/nc-3.1.3041-deb4ef3b/static/plugins/c9.ide.preview.markdown/markdown.html?host=https://ide.c9.io&id=markdown1 -->
+<!-- saved from url=(0127)https://cdn.c9.io/nc-3.1.3082-d75258c0/static/plugins/c9.ide.preview.markdown/markdown.html?host=https://ide.c9.io&id=markdown1 -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
-        <script src="./introtosql_files/remarkable.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="./introtosql_files/github-markdown.css">
+        <script src="./setup_c9_and_phpmyadmin_files/remarkable.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./setup_c9_and_phpmyadmin_files/github-markdown.css">
         <style>
             body, html{
                 margin: 0;
@@ -50,10 +50,10 @@ and type the following command:</p>
 </div></div></div></code></pre>
 <p class="line" data-line="23">Now you can start using mysql on the terminal. <br>
 This is a fully functional database management <br>
-system (DBMS). To work in mysql</p>
+system (DBMS). To work in mysql, type the following</p>
 <pre><code class="language-bash"><div class="ace-cloud9-day"><div class="ace_static_highlight" style="counter-reset:ace_line 0"><div class="ace_line"><span class="ace_identifier">mysql</span> <span class="ace_keyword ace_operator">-</span><span class="ace_identifier">u</span> <span class="ace_identifier">root</span>  
 </div></div></div></code></pre>
-<p class="line" data-line="31">You should see the following</p>
+<p class="line" data-line="31">And if you see the message below, your installation is successful.</p>
 <pre><code><div class="ace-cloud9-day"><div class="ace_static_highlight" style="counter-reset:ace_line 0"><div class="ace_line">Welcome to the MySQL monitor.  Commands end with ; or \g.
 </div><div class="ace_line">Your MySQL connection id is 50
 </div><div class="ace_line">Server version: 5.5.49-0ubuntu0.14.04.1 (Ubuntu)
@@ -68,10 +68,10 @@ system (DBMS). To work in mysql</p>
 </div><div class="ace_line">
 </div><div class="ace_line">mysql&gt; 
 </div></div></div></code></pre>
-<p class="line" data-line="48">You can start writing your statements here:</p>
+<p class="line" data-line="49">You can start writing your statements here:</p>
 <pre><code class="language-mysql"><div class="ace-cloud9-day"><div class="ace_static_highlight" style="counter-reset:ace_line 0"><div class="ace_line"><span class="ace_keyword">show</span> <span class="ace_keyword">databases</span>;
 </div></div></div></code></pre>
-<p class="line" data-line="53">The results will be</p>
+<p class="line" data-line="54">The results will be</p>
 <pre><code><div class="ace-cloud9-day"><div class="ace_static_highlight" style="counter-reset:ace_line 0"><div class="ace_line">+--------------------+
 </div><div class="ace_line">| Database           |
 </div><div class="ace_line">+--------------------+
@@ -85,45 +85,19 @@ system (DBMS). To work in mysql</p>
 </div><div class="ace_line">
 </div><div class="ace_line">6 rows in set (0.01 sec)
 </div></div></div></code></pre>
-<p class="line" data-line="69">Try the following commands one line at a time:</p>
-<pre><code class="language-mysql"><div class="ace-cloud9-day"><div class="ace_static_highlight" style="counter-reset:ace_line 0"><div class="ace_line">
-</div><div class="ace_line"><span class="ace_keyword">Select</span> <span class="ace_keyword">Current_date</span>;
-</div><div class="ace_line"><span class="ace_keyword">Select</span> <span class="ace_identifier">Version</span><span class="ace_paren ace_lparen">(</span><span class="ace_paren ace_rparen">)</span>;
-</div><div class="ace_line"><span class="ace_keyword">Select</span> <span class="ace_keyword">Current_date</span>, <span class="ace_identifier">Version</span><span class="ace_paren ace_lparen">(</span><span class="ace_paren ace_rparen">)</span>;
-</div></div></div></code></pre>
+<p class="line" data-line="70">You can exit from mysql <code>exit;</code> command</p>
 <ul>
-<li class="line" data-line="79"><p>You can use mysql as  a calculator</p></li>
-</ul>
-<pre><code class="language-mysql"><div class="ace-cloud9-day"><div class="ace_static_highlight" style="counter-reset:ace_line 0"><div class="ace_line"><span class="ace_keyword">SELECT</span> <span class="ace_constant ace_numeric">52</span><span class="ace_keyword ace_operator">/</span><span class="ace_constant ace_numeric">4</span>;
-</div><div class="ace_line"><span class="ace_keyword">SELECT</span> <span class="ace_identifier">SIN</span><span class="ace_paren ace_lparen">(</span><span class="ace_identifier">PI</span><span class="ace_paren ace_lparen">(</span><span class="ace_paren ace_rparen">)</span><span class="ace_keyword ace_operator">/</span><span class="ace_constant ace_numeric">2</span><span class="ace_paren ace_rparen">)</span>,  <span class="ace_paren ace_lparen">(</span><span class="ace_constant ace_numeric">8-3</span><span class="ace_paren ace_rparen">)</span>*<span class="ace_constant ace_numeric">5</span>;
-</div></div></div></code></pre>
-<ul>
-<li class="line" data-line="86"><p>You can run more than one command at once</p></li>
-<li class="line" data-line="87"></li>
-</ul>
-<pre><code class="language-mysql"><div class="ace-cloud9-day"><div class="ace_static_highlight" style="counter-reset:ace_line 0"><div class="ace_line"><span class="ace_keyword">SELECT</span> <span class="ace_support ace_function">NOW</span><span class="ace_paren ace_lparen">(</span><span class="ace_paren ace_rparen">)</span>; <span class="ace_keyword">SELECT</span> <span class="ace_constant ace_numeric">5</span>*<span class="ace_constant ace_numeric">8</span>;
-</div></div></div></code></pre>
-<ul>
-<li class="line" data-line="91"><p>Or you can use multiple lines for a command</p></li>
-<li class="line" data-line="92"><p>And combine outputs using (,)</p></li>
-</ul>
-<pre><code class="language-mysql"><div class="ace-cloud9-day"><div class="ace_static_highlight" style="counter-reset:ace_line 0"><div class="ace_line"><span class="ace_keyword">SELECT</span> 
-</div><div class="ace_line"><span class="ace_keyword">USER</span><span class="ace_paren ace_lparen">(</span><span class="ace_paren ace_rparen">)</span>
-</div><div class="ace_line"> ,
-</div><div class="ace_line"><span class="ace_keyword">CURRENT_DATE</span><span class="ace_paren ace_lparen">(</span><span class="ace_paren ace_rparen">)</span>;
-</div></div></div></code></pre>
-<ul>
-<li class="line" data-line="103"><p>Exit from MySQL:</p></li>
+<li class="line" data-line="72"><p>Exit from MySQL:</p></li>
 </ul>
 <pre><code class="language-mysql"><div class="ace-cloud9-day"><div class="ace_static_highlight" style="counter-reset:ace_line 0"><div class="ace_line"><span class="ace_variable ace_language">exit</span>;
 </div></div></div></code></pre>
-<h3 class="line" data-line="108">Initiate your phpmyadmin</h3>
+<h3 class="line" data-line="77">Initiate your phpmyadmin</h3>
 <ul>
-<li class="line" data-line="110"><p>In your terminal write the following command:</p></li>
+<li class="line" data-line="79"><p>In your terminal write the following command:</p></li>
 </ul>
 <pre><code class="language-bash"><div class="ace-cloud9-day"><div class="ace_static_highlight" style="counter-reset:ace_line 0"><div class="ace_line"><span class="ace_identifier">phpmyadmin</span><span class="ace_keyword ace_operator">-</span><span class="ace_identifier">ctl</span> <span class="ace_identifier">install</span>
 </div></div></div></code></pre>
-<p class="line" data-line="115">You should see the following</p>
+<p class="line" data-line="84">You should see the following</p>
 <pre><code class="language-bash"><div class="ace-cloud9-day"><div class="ace_static_highlight" style="counter-reset:ace_line 0"><div class="ace_line"><span class="ace_identifier">Starting</span> <span class="ace_identifier">installation</span>
 </div><div class="ace_line"><span class="ace_identifier">Starting</span> <span class="ace_identifier">MySQL</span>
 </div><div class="ace_line"> <span class="ace_keyword ace_operator">*</span> <span class="ace_identifier">Starting</span> <span class="ace_identifier">MySQL</span> <span class="ace_identifier">database</span> <span class="ace_identifier">server</span> <span class="ace_identifier">mysqld</span>
@@ -137,10 +111,11 @@ system (DBMS). To work in mysql</p>
 </div><div class="ace_line">
 </div><div class="ace_line"><span class="ace_indent-guide">    </span>   <span class="ace_identifier">Username</span>: <span class="ace_keyword ace_operator">&lt;</span><span class="ace_identifier">your</span> <span class="ace_identifier">username</span><span class="ace_keyword ace_operator">&gt;</span> 
 </div></div></div></code></pre>
-<h3 class="line" data-line="133"><add phpmy="" admin="" login=""></add></h3>
+<h3 class="line" data-line="102"><add phpmy="" admin="" login=""></add></h3>
 <ul>
-<li class="line" data-line="135"><p>Try running the commands you did in the terminal</p></li>
+<li class="line" data-line="104"><p>You can click on the link provided and start php my admin</p></li>
 </ul>
+<p class="line" data-line="106"><a href="http://www.youtube.com/watch?v=71BJF3HQzZQ"><img src="./setup_c9_and_phpmyadmin_files/0.jpg" alt="IMAGE ALT TEXT HERE"></a></p>
 </div>
         <script>
             (function(){
