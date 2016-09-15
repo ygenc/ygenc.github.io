@@ -7,8 +7,8 @@ category: intro
 I am an [Assistant Professor][Profile] in the Department of Information Systems, [School of Computer Science and Information Systems, Pace University][Seidenberg]. Prior to Pace University, I was a CIS and Business Analytics Professor in the [Business School of Manhattan  College][Business School]. I received my PhD in Information Management from [Stevens Institute of Technology][Stevens] in 2014.
  
 
-[Seidenberg]:[http://www.pace.edu/seidenberg/]
-[Profile]: [http://www.pace.edu/seidenberg/sections/meet-the-faculty/faculty-profile?username=ygenc]
+[Seidenberg]:http://www.pace.edu/seidenberg/
+[Profile]: http://www.pace.edu/seidenberg/sections/meet-the-faculty/faculty-profile?username=ygenc
 [Manhattan]: https://manhattan.edu/faculty/yegingenc
 [Business School]: http://www.stevens.edu/business/
 [Stevens]:http://www.stevens.edu
