@@ -10,3 +10,5 @@ name: Yegin Genc
 url: http://ygenc.github.io/
 description: Personal Website.
 twitter: ygenc
+
+theme: jekyll-theme-minimal
