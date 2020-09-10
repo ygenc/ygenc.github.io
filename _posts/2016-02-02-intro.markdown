@@ -8,7 +8,7 @@ I am an [Assistant Professor][Profile] in the Department of Information Systems,
  
 
 [Seidenberg]:http://www.pace.edu/seidenberg/
-[Profile]: http://www.pace.edu/seidenberg/sections/meet-the-faculty/faculty-profile?username=ygenc
+[Profile]: https://www.pace.edu/seidenberg/sections/meet-the-faculty/faculty-profile/ygenc
 [Manhattan]: https://manhattan.edu/faculty/yegingenc
 [Business School]: http://www.stevens.edu/business/
 [Stevens]:http://www.stevens.edu
