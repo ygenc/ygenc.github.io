@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)https://etherscan.io/tokens -->
+<html lang="en" class="gr__etherscan_io"><link type="text/css" id="dark-mode" rel="stylesheet" href="https://etherscan.io/tokens"><style type="text/css" id="dark-mode-custom-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	Etherscan Token Tracker
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="Description" content="List of Ethereum Tokens and their Market Capitalization of the Ethereum Blockchain on Etherscan"><meta name="author" content="etherscan.io"><meta name="keywords" content="ethereum, explorer, ether, search, blockchain, crypto, currency"><meta name="format-detection" content="telephone=no">
+<script type="text/javascript" async="" src="./etherscan_files/analytics.js"></script><script src="./etherscan_files/M2jbC5w-2kzKWSY9kfVDccG4Ox8.js"></script><script src="./etherscan_files/js"></script><script type="text/javascript" src="./etherscan_files/jquery.min.js"></script>
+<script type="text/javascript" src="./etherscan_files/jquery-ui.min.js"></script>
+<style type="text/css">#div-advert {margin-top: 22px;margin-bottom: -9px;min-height: 40px;}@media (max-width: 667px) {#div-advert {min-height: 62px;}}@media (max-width: 767px) {#div-advert {padding-bottom: 20px;}}</style>
+<link rel="shortcut icon" href="https://etherscan.io/images/favicon2.ico"><link rel="stylesheet" type="text/css" href="./etherscan_files/css"><link rel="stylesheet" href="./etherscan_files/bootstrap.min.css"><link rel="stylesheet" href="./etherscan_files/style-mod.css"><link rel="stylesheet" href="./etherscan_files/custom-head-foot-scroll-blue.min.css"><link rel="stylesheet" href="./etherscan_files/line-icons.css"><link rel="stylesheet" href="./etherscan_files/font-awesome.min.css"><style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style></head>
+<body data-gr-c-s-loaded="true" style="">
+<div class="wrapper">
+<div class="header">
+<div class="container">
+<a class="logo" href="https://etherscan.io/" target="_parent" title="Home Page">
+<img id="logo-header" src="./etherscan_files/EtherscanLogo-transparent-b-small.png" alt="Logo" style="margin-top: 16px; margin-bottom: 14px; margin-left: -6px">
+</a>
+<div class="topbar hidden-xs hidden-sm ">
+<form action="https://etherscan.io/search" method="GET" autocomplete="off" spellcheck="false">
+<ul class="loginbar pull-right">
+<li><a href="https://etherscan.io/login" title="Click To Login"> LOGIN</a> <i class="fa  fa-male"></i> &nbsp;&nbsp;</li>
+<li>
+<div style="display: inline;">
+<input id="txtSearchInput" type="text" class="form-control-custom ui-autocomplete-input" placeholder="Search by Address / Txhash / Block / Token / Ens" name="q" maxlength="66" style="width: 330px; height: 31px;" autocomplete="off">
+<span class="" style="display: inline">
+<button class="btn-u" type="submit" style="padding: 3px 6px 3px 6px; height: 32px; width: 41px; margin-left: -5px; margin-top: 3px;">GO</button>
+</span>
+</div>
+</li>
+<li>
+<span style="float: right; margin-left: -28px; margin-top: 9px">
+<ul class="loginbar">
+<li>
+<i class="fa fa-globe"></i>
+<a>Language </a>
+<ul class="languages hoverSelectorBlock">
+<li class="active"><a href="https://etherscan.io/tokens#">english <i class="fa fa-check"></i></a></li> <li> <a href="https://etherscan.io/?lang=zh-cn" title="simplified chinese"> <b>中文</b> </a></li>
+</ul>
+</li>
+</ul>
+</span>
+</li>
+</ul>
+</form>
+
+</div>
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+<span class="sr-only">Toggle Navigation</span>
+<span class="fa fa-bars"></span>
+</button>
+
+</div>
+
+<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+<div class="container">
+<ul class="nav navbar-nav">
+
+<li id="LI_default">
+<a href="https://etherscan.io/">Home </a>
+</li>
+<li id="LI_blockchain" class="dropdown">
+<a href="https://etherscan.io/tokens#" class="" data-toggle="dropdown">
+&nbsp;Blockchain
+</a>
+<ul class="dropdown-menu">
+<li id="LI12"><a href="https://etherscan.io/txs"><i class="fa fa-list-alt"></i>&nbsp;View Txns</a></li>
+<li id="LI16"><a href="https://etherscan.io/txsPending"><i class="fa fa-tasks "></i>&nbsp;View Pending Txns</a></li>
+<li id="LI14"><a href="https://etherscan.io/txsInternal"><i class="fa fa-puzzle-piece"></i>&nbsp;View Contract Internal Txns</a></li>
+<li class="divider"></li>
+<li id="LI_blocks2" class="dropdown-submenu"><a href="https://etherscan.io/blocks"><i class="fa fa-cubes"></i>&nbsp;View Blocks</a>
+<ul class="dropdown-menu">
+<li><a href="https://etherscan.io/blocks_forked" title="Invalid Block From Blockchain Reorganizations">FORKED Blocks (Reorgs)</a></li>
+</ul>
+</li>
+<li id="LI8"><a href="https://etherscan.io/uncles"><i class="fa fa-cube"></i>&nbsp;View Uncles</a></li>
+<li class="divider"></li>
+<li id="LI_accountall"><a href="https://etherscan.io/accounts" title="Normal &amp; Contract Accounts"><i class="fa fa-building"></i>&nbsp;Top Accounts</a></li>
+<li id="LI_contract_verified"><a href="https://etherscan.io/contractsVerified" title="Contracts With Verified Source Code"><i class="fa fa-check-circle-o"></i>&nbsp;Verified Contracts</a></li>
+</ul>
+</li>
+<li id="LI_tokens" class="dropdown active">
+<a href="https://etherscan.io/tokens#" class="" data-toggle="dropdown">&nbsp;Tokens
+</a>
+<ul class="dropdown-menu">
+<li id="LI21"><a href="https://etherscan.io/tokens" title="List of ERC-20 Tokens"><i class="fa fa-certificate"></i>&nbsp;ERC-20 Top Tokens</a></li>
+<li id="LI1"><a href="https://etherscan.io/tokentxns"><i class="fa fa-bars"></i>&nbsp;View ERC-20 Transfers</a></li>
+<li class="divider"></li>
+ <li id="LI42"><a href="https://etherscan.io/tokens-nft" title="List of ERC-721 (Non-Fungible) Tokens"><i class="fa fa-ticket"></i>&nbsp;ERC-721 Top Tokens</a></li>
+<li id="LI40"><a href="https://etherscan.io/tokentxns-nft"><i class="fa fa-bars"></i>&nbsp;View ERC-721 Transfers</a></li>
+</ul>
+</li>
+<li id="LI_resources" class="dropdown">
+<a href="https://etherscan.io/tokens#" class="" data-toggle="dropdown">&nbsp;RESOURCES</a>
+<ul class="dropdown-menu">
+<li id="LI43"><a href="https://etherscan.io/directory" title="Ethereum Directory"><i class="fa fa-book"></i>&nbsp;Ethereum Directory</a></li>
+<li id="LI_charts2"><a href="https://etherscan.io/charts" title="Charts And Statistics"><i class="fa fa-bar-chart-o"></i>&nbsp;Charts And Stats</a></li>
+<li id="LI_chartbi"><a href="https://etherscan.io/chartinteractive" title="Interactive Charts And Statistics"><i class="fa fa-line-chart"></i>&nbsp;Interactive Chart and Stats</a></li>
+</ul>
+</li>
+<li id="LI_services2" class="dropdown mega-menu-fullwidth">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">&nbsp;MORE
+</a>
+<ul class="dropdown-menu">
+<li>
+<div class="mega-menu-content disable-icons">
+<div class="container">
+<div class="row equal-height">
+<div class="col-md-3 equal-height-in">
+<ul class="list-unstyled equal-height-list">
+<li>
+<h3>DEVELOPERS</h3>
+</li>
+<li id="LI6"><a href="https://etherscan.io/apis"><i class="fa fa-cogs"></i>APIs</a></li>
+<li id="LI17"><a href="https://etherscan.io/verifyContract2" title="Verify And Publish Your Contract Source Code"><i class="fa fa-code"></i>Verify Contract</a></li>
+<li id="LI24"><a href="https://etherscan.io/opcode-tool" title="Byte To Opcode Converter"><i class="fa  fa-ellipsis-h"></i>Byte To Opcode</a></li>
+<li id="LI10"><a href="https://etherscan.io/pushTx"><i class="fa fa-pied-piper-alt"></i>Broadcast TXN</a></li>
+</ul>
+</div>
+<div class="col-md-3 equal-height-in">
+<ul class="list-unstyled equal-height-list">
+<li>
+<h3>SWARM &amp; ENS</h3>
+</li>
+<li id="LI25"><a href="https://etherscan.io/swarm" title="SWARM Search"><i class="fa fa-search-plus"></i>SWARM Search</a></li>
+<li id="LI30"><a href="https://etherscan.io/swarmupload" title="SWARM Upload"><i class="fa fa-cloud-upload"></i>SWARM Upload</a></li>
+<li id="LI22"><a href="https://etherscan.io/ens" title="Ethereum Name Service Events"><i class="fa fa-bars"></i>ENS Events</a></li>
+<li id="LI26"><a href="https://etherscan.io/enslookup" title="Ethereum Name Service Lookup"><i class="fa fa-search-plus"></i>ENS Lookup</a></li>
+</ul>
+</div>
+<div class="col-md-3 equal-height-in">
+<ul class="list-unstyled equal-height-list">
+<li>
+<h3>SERVICE TRACKER</h3>
+</li>
+<li id="LI4"><a href="https://etherscan.io/dextracker" title="Ethereum Dex Tracker"><i class="fa fa-exchange"></i>DEX Tracker</a></li>
+<li id="LI7"><a href="https://etherscan.io/orderbooks" title="Ethereum Dex Order Books"><i class="fa fa-exchange"></i>DEX Order Books</a></li>
+<li id="LI19"><a href="https://etherscan.io/gastracker" title="Ethereum Gas Tracker"><i class="fa fa-tachometer"></i>Gas Tracker</a></li>
+<li id="LI46"><a href="https://etherscan.io/nodetracker" title="Ethereum Node Tracker"><i class="fa fa-globe"></i>Node Tracker</a></li>
+</ul>
+</div>
+<div class="col-md-3 equal-height-in">
+<ul class="list-unstyled equal-height-list">
+<li>
+<h3>MISC </h3>
+</li>
+<li id="LI5"><a href="https://etherscan.io/ether-mining-calculator"><i class="fa fa-gavel"></i>Mining Calculator</a></li>
+<li id="LI29"><a href="https://etherscan.io/verifiedSignatures" title="Verified Message Signatures List"><i class="fa fa-code"></i>Verified Signature</a></li>
+<li id="LI2"><a href="https://etherscan.io/find-similiar-contracts" title="Find Other Contracts that have the Same/Similar Contract Codes"><i class="fa fa-search-plus"></i>Similiar Contracts</a></li>
+<li id="LI41"><a href="https://etherscan.io/labelcloud" title="Label Tags Word Cloud"><i class="fa fa-cloud"></i>Label Word Cloud</a></li>
+</ul>
+</div>
+<div class="col-md-3 equal-height-in">
+<ul class="list-unstyled equal-height-list">
+<li>
+<h3>OTHER EXPLORER S</h3>
+</li>
+<li id="LI28"><a href="https://ropsten.etherscan.io/" target="_blank" title="Ropsten (Revived) TESTNET BLOCKEXPLORER"><i class="fa fa-external-link"></i>TESTNET (Ropsten)</a></li>
+ <li id="LI31"><a href="https://kovan.etherscan.io/" target="_blank" title="Kovan (Poa) TESTNET BLOCKEXPLORER"><i class="fa fa-external-link"></i>TESTNET (Kovan)</a></li>
+<li id="LI32"><a href="https://rinkeby.etherscan.io/" target="_blank" title="Rinkeby (Poa) TESTNET BLOCKEXPLORER"><i class="fa fa-external-link"></i>TESTNET (Rinkeby)</a></li>
+<li id="LI33"><a href="https://tobalaba.etherscan.com/" target="_blank" title="Tobalaba (EWF) BLOCKEXPLORER"><i class="fa fa fa-external-link"></i>Tobalaba (EWF)</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li id="LI_login" class="hidden-lg hidden-md ">
+<a href="https://etherscan.io/login" title="Login Now">&nbsp;LOGIN</a>
+</li>
+<li class="dropdown hidden-lg hidden-md">
+<a href="https://etherscan.io/tokens#" class="" data-toggle="dropdown">
+&nbsp;Language
+</a>
+<ul class="dropdown-menu">
+<li><a href="https://etherscan.io/?lang=en">&nbsp;English</a></li>
+<li><a href="https://etherscan.io/?lang=zh-CN">&nbsp;中文</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="container left hidden-lg hidden-md" id="divmobilesearch" style="margin-top: 5px; margin-bottom: -18px; padding-right: 20px; padding-left: 20px;">
+<form action="https://etherscan.io/search" method="GET">
+<input id="txtSearchInputMobile" type="text" placeholder="Search For Account, TxHash Or Data" class="form-control ui-autocomplete-input" style="text-align: center;" name="q" maxlength="66" title="Address, Contract, Txn Hash or Data" autocomplete="off">
+</form>
+<br><br>
+</div>
+
+
+
+<div class="breadcrumbs">
+<div class="container">
+<h1 class="etitle pull-left">
+Token Tracker</h1>
+<ul class="pull-right breadcrumb">
+<li><a href="https://etherscan.io/">Home</a></li>
+<li class="active">Tokens</li>
+</ul>
+</div>
+</div>
+
+
+
+<div class="container">
+<span id="ContentPlaceHolder1_lblAdResult"><div id="div-advert">
+<ins data-revive-zoneid="2" data-revive-id="5bf14fd8280fceae0b5990be9d0e7ca4" data-revive-seq="0" id="revive-0-0" data-revive-loaded="1" style="text-decoration: none;"><img src="./etherscan_files/etherscan.png"> <b> Etherscan</b> - Sponsored slots available. <a href="https://gen.etherscan.io/www/d/ck.php?oaparams=2__ebannerid=5__zoneid=2__cb=a3bbe4c82e__oadest=https%3A%2F%2Fetherscan.io%2Fcontactus%3Fid%3D3" rel="nofollow" title="Links to an External Advertiser site" target="_blank"> <b>Book your slot here!</b></a><div id="beacon_a3bbe4c82e" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="./etherscan_files/lg.php" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div></ins>
+<script async="" src="./etherscan_files/asyncjses.php"></script></div></span>
+<div class="row" style="margin-top:10px">
+<div class="col-md-6" style="margin-top: 5px; margin-bottom:5px">
+<b>Ethereum Token Market Capitalization</b><br><font color="gray">A total of 139311 Token Contracts found</font>
+</div>
+<div id="ContentPlaceHolder1_searchBarDiv" class="col-md-6">
+<form action="https://etherscan.io/tokens" method="get" autocomplete="off" spellcheck="false">
+<div style="display: inline;" class="pull-right">
+<input id="searchtoken" value="" class="form-control-custom margin-bottom-15 ui-autocomplete-input" type="text" name="q" placeholder="Search For Token Name Or Address" runat="server" maxlength="80" style="width: 280px; height: 33px;" autocomplete="off">
+<span class="hidden-xs" style="display: inline">
+<button class="btn-u btn-u-default" type="submit" style="padding: 1px 2px 1px 2px; height: 33px; width: 40px; margin-left: -5px; margin-top: 0px;" title="Search">Find</button>
+</span>
+</div>
+</form>
+</div>
+</div>
+<div id="ContentPlaceHolder1_divpagingpanel" class="row">
+<div class="col-sm-6">
+<span class="hidden-xs"></span>
+</div>
+<div class="col-sm-6">
+<p align="right">
+<span style="white-space: nowrap; display: inline-block"><a class="btn btn-primary btn-xs " disabled="disabled " href="https://etherscan.io/tokens#">First</a> <a class="btn btn-primary btn-xs" disabled="disabled " href="https://etherscan.io/tokens#">Prev</a> <span style="padding: 2px 4px 4px 3px; border: 1px solid #D4D4D4; line-height: 30px; background-color: #EAEAEA; margin-top: 2px; height: 2px;">Page <b>1</b> of <b>16</b></span> <a class="btn btn-default btn-xs logout" href="https://etherscan.io/tokens?p=2">Next</a> <a class="btn btn-default btn-xs logout" href="https://etherscan.io/tokens?p=16">Last</a> </span>
+</p>
+</div>
+</div>
+
+<div id="ContentPlaceHolder1_divresult" class="table-responsive" style="margin-top:5px">
+<table class="table table-bordered table-striped">
+<thead>
+<tr>
+<th width="25px"></th>
+<th class="hidden-xs" width="30px"></th>
+<th style="padding-top: 0px">Token</th>
+<th class="text-nowrap" width="100px"><a href="https://etherscan.io/tokens?sort=price_usd&amp;order=desc" title="Click For Descending Sort">Price</a></th>
+<th class="text-nowrap" width="50px"><a href="https://etherscan.io/tokens?sort=percent_change_24h&amp;order=desc" title="Click For Descending Sort">%Change</a></th>
+<th class="text-nowrap" width="50px"><a href="https://etherscan.io/tokens?sort=24h_volume_usd&amp;order=desc" title="Click For Descending Sort">Volume (24H)</a></th>
+<th class="text-nowrap" width="50px"><b><i class="fa fa-angle-down"></i></b>&nbsp;<a href="https://etherscan.io/tokens?sort=marketcap&amp;order=asc" title="Sorted in Descending Order,Click For Ascending Sort" style="text-decoration:underline;">Market Cap</a></th>
+</tr>
+</thead>
+<tbody>
+<tr><td><b><span style="position:relative; top:8px">&nbsp;1</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xB8c77482e45F1F44dE1745F52C74426C631bDD52"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/binance_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xB8c77482e45F1F44dE1745F52C74426C631bDD52">BNB (BNB)</a></h5><small class="hex hidden-xs"><font color="gray">Binance aims to build a world-class crypto exchange, powering the future
+of crypto finance.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/binance_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xB8c77482e45F1F44dE1745F52C74426C631bDD52">BNB (BNB)</a></td><td>&nbsp;<span style="margin-left:-4px">$9.5185</span><br><font size="1">0.00147912&nbsp;Btc<br>0.044812&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.26%</font></td><td>$19,197,051</td><td>$1,245,007,667&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;2</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xd850942ef8811f2a866692a623011bde52a462c1"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/vechain_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xd850942ef8811f2a866692a623011bde52a462c1">VeChain (VEN)</a></h5><small class="hex hidden-xs"><font color="gray">VeChain aims to connect blockchain technology to the real world by providing a comprehensive governance structure, a robust economic model as well as advanced IoT integration.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/vechain_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xd850942ef8811f2a866692a623011bde52a462c1">VeChain (VEN)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.0102</span><br><font size="1">0.00000158&nbsp;Btc<br>0.000048&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.38%</font></td><td>$8,513,171</td><td>$564,522,812&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;3</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/mkr-etherscan-35.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2">Maker (MKR)</a></h5><small class="hex hidden-xs"><font color="gray">Maker is a Decentralized Autonomous Organization that creates and insures the dai stablecoin on the Ethereum blockchain</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/mkr-etherscan-35.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2">Maker (MKR)</a></td><td>&nbsp;<span style="margin-left:-4px">$701.9984</span><br><font size="1">0.10908705&nbsp;Btc<br>3.304921&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 3.72%</font></td><td>$1,723,128</td><td>$511,214,710&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;4</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/omise.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07">OmiseGO (OMG)</a></h5><small class="hex hidden-xs"><font color="gray">OmiseGO (OMG) is a public Ethereum-based financial technology for use in mainstream digital wallets</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/omise.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07">OmiseGO (OMG)</a></td><td>&nbsp;<span style="margin-left:-4px">$3.2331</span><br><font size="1">0.00050241&nbsp;Btc<br>0.015221&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -2.33%</font></td><td>$21,961,239</td><td>$453,431,012&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;5</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xe41d2489571d322189246dafa5ebde1f4699f498"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/0xtoken_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xe41d2489571d322189246dafa5ebde1f4699f498">ZRX (ZRX)</a></h5><small class="hex hidden-xs"><font color="gray">The Protocol for Trading Tokens</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/0xtoken_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xe41d2489571d322189246dafa5ebde1f4699f498">ZRX (ZRX)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.6984</span><br><font size="1">0.00010854&nbsp;Btc<br>0.003288&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -2.09%</font></td><td>$7,674,161</td><td>$381,441,746&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;6</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/aeternity_28.jpg"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d">Aeternity (AE)</a></h5><small class="hex hidden-xs"><font color="gray">Scalable smart contracts interfacing with real world data.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/aeternity_28.jpg"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d">Aeternity (AE)</a></td><td>&nbsp;<span style="margin-left:-4px">$1.1569</span><br><font size="1">0.00017977&nbsp;Btc<br>0.005446&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.67%</font></td><td>$4,308,979</td><td>$269,571,313&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;7</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/zilliqa_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27">Zilliqa (ZIL)</a></h5><small class="hex hidden-xs"><font color="gray">Zilliqa is a high-throughput public blockchain platform - designed to scale to thousands ​of transactions per second.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/zilliqa_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27">Zilliqa (ZIL)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.0340</span><br><font size="1">0.00000528&nbsp;Btc<br>0.000160&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -1.45%</font></td><td>$5,236,226</td><td>$268,406,615&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;8</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x0d8775f648430679a709e98d2b0cb6250d2887ef"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/bat.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x0d8775f648430679a709e98d2b0cb6250d2887ef">BAT (BAT)</a></h5><small class="hex hidden-xs"><font color="gray">The Basic Attention Token is the new token for the digital advertising industry.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/bat.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x0d8775f648430679a709e98d2b0cb6250d2887ef">BAT (BAT)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.2595</span><br><font size="1">0.00004032&nbsp;Btc<br>0.001222&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -5.80%</font></td><td>$21,503,996</td><td>$259,464,730&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;9</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/pundix-28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3">Pundi X Token (NPXS)</a></h5></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/pundix-28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3">Pundi X Token (NPXS)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.0016</span><br><font size="1">0.00000025&nbsp;Btc<br>0.000008&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 5.04%</font></td><td>$13,486,601</td><td>$229,792,867&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;10</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xb5a5f22694352c15b00323844ad545abb2b11028"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/icon_icx.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xb5a5f22694352c15b00323844ad545abb2b11028">ICON (ICX)</a></h5><small class="hex hidden-xs"><font color="gray">The ICON Network is comprised of various institutions ranging from:
+financial institutions, insurance companies, hospitals, universities and more.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/icon_icx.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xb5a5f22694352c15b00323844ad545abb2b11028">ICON (ICX)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.5907</span><br><font size="1">0.00009179&nbsp;Btc<br>0.002781&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -1.21%</font></td><td>$7,361,861</td><td>$228,849,707&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;11</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xcb97e65f07da24d46bcdd078ebebd7c6e6e3d750"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/bytom_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xcb97e65f07da24d46bcdd078ebebd7c6e6e3d750">Bytom (BTM)</a></h5><small class="hex hidden-xs"><font color="gray">Transfer assets from atomic world to byteworld</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/bytom_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xcb97e65f07da24d46bcdd078ebebd7c6e6e3d750">Bytom (BTM)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.1862</span><br><font size="1">0.00002894&nbsp;Btc<br>0.000877&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.68%</font></td><td>$37,790,911</td><td>$186,692,136&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;12</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/populous_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a">Populous (PPT)</a></h5><small class="hex hidden-xs"><font color="gray">Aims to rebuild invoice financing block by block, for invoice buyers and sellers.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/populous_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a">Populous (PPT)</a></td><td>&nbsp;<span style="margin-left:-4px">$3.4308</span><br><font size="1">0.00053313&nbsp;Btc<br>0.016152&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 1.78%</font></td><td>$2,058,199</td><td>$182,699,787&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;13</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x9ab165d795019b6d8b3e971dda91071421305e5a"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/aurora_AOA_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x9ab165d795019b6d8b3e971dda91071421305e5a">Aurora (AOA)</a></h5><small class="hex hidden-xs"><font color="gray">Aurora Chain offers intelligent application isolation and enables multi-chain parallel expansion to create an extremely high TPS with security maintain.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/aurora_AOA_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x9ab165d795019b6d8b3e971dda91071421305e5a">Aurora (AOA)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.0277</span><br><font size="1">0.00000430&nbsp;Btc<br>0.000130&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 0.24%</font></td><td>$794,667</td><td>$181,002,964&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;14</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x514910771af9ca656af840dff83e8264ecf986ca"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/chainlink_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x514910771af9ca656af840dff83e8264ecf986ca">ChainLink Token (LINK)</a></h5><small class="hex hidden-xs"><font color="gray">The LINK Network provides smart contracts with data, bank payments and access to APIs.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/chainlink_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x514910771af9ca656af840dff83e8264ecf986ca">ChainLink Token (LINK)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.5078</span><br><font size="1">0.00007891&nbsp;Btc<br>0.002391&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -2.12%</font></td><td>$1,044,129</td><td>$177,736,180&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;15</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x8dd5fbce2f6a956c3022ba3663759011dd51e73e"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/trueusd_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x8dd5fbce2f6a956c3022ba3663759011dd51e73e">TrueUSD (TUSD)</a></h5><small class="hex hidden-xs"><font color="gray">The TrustToken Platform aims to be the bridge between blockchains and real-world assets.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/trueusd_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x8dd5fbce2f6a956c3022ba3663759011dd51e73e">TrueUSD (TUSD)</a></td><td>&nbsp;<span style="margin-left:-4px">$1.0081</span><br><font size="1">0.00015666&nbsp;Btc<br>0.004746&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 0.42%</font></td><td>$11,977,344</td><td>$159,195,878&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;16</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xa74476443119A942dE498590Fe1f2454d7D4aC0d"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/golem.PNG"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xa74476443119A942dE498590Fe1f2454d7D4aC0d">Golem (GNT)</a></h5><small class="hex hidden-xs"><font color="gray">Golem is going to create the first decentralized global market for computing power</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/golem.PNG"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xa74476443119A942dE498590Fe1f2454d7D4aC0d">Golem (GNT)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.1641</span><br><font size="1">0.00002550&nbsp;Btc<br>0.000773&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -1.05%</font></td><td>$726,323</td><td>$157,531,921&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;17</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x1985365e9f78359a9B6AD760e32412f4a445E862"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/augur.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x1985365e9f78359a9B6AD760e32412f4a445E862">Reputation (REP)</a></h5><small class="hex hidden-xs"><font color="gray">Augur combines the magic of prediction markets with the power of a decentralized network to create a stunningly accurate forecasting tool</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/augur.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x1985365e9f78359a9B6AD760e32412f4a445E862">Reputation (REP)</a></td><td>&nbsp;<span style="margin-left:-4px">$13.9702</span><br><font size="1">0.00217089&nbsp;Btc<br>0.065770&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -4.20%</font></td><td>$1,441,173</td><td>$153,671,689&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;18</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x8e870d67f660d95d5be530380d0ec0bd388289e1"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/paxos_28_2.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x8e870d67f660d95d5be530380d0ec0bd388289e1">Paxos Standard (PAX)</a></h5><small class="hex hidden-xs"><font color="gray">Paxos Standard is regulated crypto asset. It is fully collateralized 1:1 by the U.S. dollar, approved and regulated by the NYDFS, and enables instantaneous transactions.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/paxos_28_2.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x8e870d67f660d95d5be530380d0ec0bd388289e1">Paxos Standard (PAX)</a></td><td>&nbsp;<span style="margin-left:-4px">$1.0041</span><br><font size="1">0.00015603&nbsp;Btc<br>0.004727&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 0.38%</font></td><td>$46,115,296</td><td>$135,866,151&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;19</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/centre-usdc_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48">USD Coin (USDC)</a></h5><small class="hex hidden-xs"><font color="gray">USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project and membership consortium, with Circle being the first of several forthcoming issuers.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/centre-usdc_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48">USD Coin (USDC)</a></td><td>&nbsp;<span style="margin-left:-4px">$1.0059</span><br><font size="1">0.0001563&nbsp;Btc<br>0.004735&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 0.03%</font></td><td>$5,107,950</td><td>$134,883,973&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;20</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x6c6ee5e31d828de241282b9606c8e98ea48526e2"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/holo_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x6c6ee5e31d828de241282b9606c8e98ea48526e2">HoloToken (HOT)</a></h5><small class="hex hidden-xs"><font color="gray">Holo is a decentralized hosting platform and a new breed of asset-backed, mutual-credit cryptocurrency based on Holochain. Holochain is a massively scalable, agent-centric post-blockchain development framework for distributed applications.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/holo_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x6c6ee5e31d828de241282b9606c8e98ea48526e2">HoloToken (HOT)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.0010</span><br><font size="1">0.00000016&nbsp;Btc<br>0.000005&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.38%</font></td><td>$2,235,547</td><td>$133,902,103&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;21</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x744d70fdbe2ba4cf95131626614a1763df805b9e"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/status.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x744d70fdbe2ba4cf95131626614a1763df805b9e">StatusNetwork (SNT)</a></h5><small class="hex hidden-xs"><font color="gray">Status is an open source messaging platform and mobile browser to interact with decentralized applications that run on the Ethereum Network.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/status.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x744d70fdbe2ba4cf95131626614a1763df805b9e">StatusNetwork (SNT)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.0366</span><br><font size="1">0.00000569&nbsp;Btc<br>0.000172&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.18%</font></td><td>$2,490,907</td><td>$127,045,929&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;22</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xb7cb1c96db6b22b0d3d9536e0108d062bd488f74"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/walton2_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xb7cb1c96db6b22b0d3d9536e0108d062bd488f74">Walton (WTC)</a></h5><small class="hex hidden-xs"><font color="gray">Value Internet of Things (VIoT) constructs a perfect commercial ecosystem via the integration of the real world and the blockchain.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/walton2_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xb7cb1c96db6b22b0d3d9536e0108d062bd488f74">Walton (WTC)</a></td><td>&nbsp;<span style="margin-left:-4px">$3.0533</span><br><font size="1">0.00047447&nbsp;Btc<br>0.014375&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 0.60%</font></td><td>$13,313,988</td><td>$123,183,841&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;23</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x39bb259f66e1c59d5abef88375979b4d20d98022"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/wax.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x39bb259f66e1c59d5abef88375979b4d20d98022">WAX Token (WAX)</a></h5><small class="hex hidden-xs"><font color="gray">Global Decentralized Marketplace for Virtual Assets.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/wax.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x39bb259f66e1c59d5abef88375979b4d20d98022">WAX Token (WAX)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.1237</span><br><font size="1">0.00001921&nbsp;Btc<br>0.000582&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 8.16%</font></td><td>$2,528,714</td><td>$115,717,709&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;24</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/iost_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab">IOSToken (IOST)</a></h5><small class="hex hidden-xs"><font color="gray">A Secure &amp; Scalable Blockchain for Smart Services</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/iost_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab">IOSToken (IOST)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.0120</span><br><font size="1">0.00000186&nbsp;Btc<br>0.000056&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.99%</font></td><td>$3,305,387</td><td>$100,575,434&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;25</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x4CEdA7906a5Ed2179785Cd3A40A69ee8bc99C466"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/aion-network_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x4CEdA7906a5Ed2179785Cd3A40A69ee8bc99C466">AION (AION)</a></h5><small class="hex hidden-xs"><font color="gray">A multi-tier blockchain system designed to address unsolved questions of scalability, privacy, and interoperability in blockchain networks</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/aion-network_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x4CEdA7906a5Ed2179785Cd3A40A69ee8bc99C466">AION (AION)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.3955</span><br><font size="1">0.00006145&nbsp;Btc<br>0.001862&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.01%</font></td><td>$1,686,100</td><td>$99,903,980&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;26</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x0f5d2fb29fb7d3cfee444a200298f468908cc942"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/decentraland3_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x0f5d2fb29fb7d3cfee444a200298f468908cc942">Decentraland (MANA)</a></h5><small class="hex hidden-xs"><font color="gray">Decentraland is a virtual reality platform powered by the Ethereum blockchain. Users can create, experience, and monetize content and applications</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/decentraland3_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x0f5d2fb29fb7d3cfee444a200298f468908cc942">Decentraland (MANA)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.0941</span><br><font size="1">0.00001463&nbsp;Btc<br>0.000443&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.18%</font></td><td>$7,360,175</td><td>$98,839,803&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;27</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/bancor.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c">Bancor (BNT)</a></h5><small class="hex hidden-xs"><font color="gray">Bancor Protocol is a standard for a new generation of cryptocurrencies called Smart Tokens</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/bancor.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c">Bancor (BNT)</a></td><td>&nbsp;<span style="margin-left:-4px">$1.3368</span><br><font size="1">0.00020773&nbsp;Btc<br>0.006293&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.48%</font></td><td>$1,384,646</td><td>$87,456,501&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;28</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/nexo_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206">Nexo (NEXO)</a></h5><small class="hex hidden-xs"><font color="gray">Instant Crypto-backed Loans</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/nexo_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206">Nexo (NEXO)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.1471</span><br><font size="1">0.00002286&nbsp;Btc<br>0.000692&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 4.40%</font></td><td>$2,329,195</td><td>$82,363,503&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;29</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x48f775efbe4f5ece6e0df2f7b5932df56823b990"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/revain_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x48f775efbe4f5ece6e0df2f7b5932df56823b990">Revain (R)</a></h5><small class="hex hidden-xs"><font color="gray">Revain is a new-generation feedback platform, based on the blockchain technology that does not allow to change or delete reviews and its authors get rewards for creating them!</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/revain_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x48f775efbe4f5ece6e0df2f7b5932df56823b990">Revain (R)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.2101</span><br><font size="1">0.00003265&nbsp;Btc<br>0.000989&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -7.16%</font></td><td>$2,475,564</td><td>$80,783,732&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;30</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/loopring2_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f">Loopring (LRC)</a></h5><small class="hex hidden-xs"><font color="gray">Loopring is not only a protocol but also a decentralized automated execution system that trades across the crypto-token exchanges.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/loopring2_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f">Loopring (LRC)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.1002</span><br><font size="1">0.00001557&nbsp;Btc<br>0.000472&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -2.28%</font></td><td>$1,672,812</td><td>$79,050,102&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;31</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xbf2179859fc6d5bee9bf9158632dc51678a4100e"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/aelf_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xbf2179859fc6d5bee9bf9158632dc51678a4100e">ELF (ELF)</a></h5><small class="hex hidden-xs"><font color="gray">elf is a decentralized self-evolving cloud computing blockchain
+network that aims to provide a high performance platform for commercial adoption of blockchain.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/aelf_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xbf2179859fc6d5bee9bf9158632dc51678a4100e">ELF (ELF)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.3150</span><br><font size="1">0.00004895&nbsp;Btc<br>0.001483&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 0.39%</font></td><td>$7,802,680</td><td>$78,746,921&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;32</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x6f259637dcd74c767781e37bc6133cd6a68aa161"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/huobi_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x6f259637dcd74c767781e37bc6133cd6a68aa161">HuobiToken (HT)</a></h5><small class="hex hidden-xs"><font color="gray">Huobi Global is a world-leading cryptocurrency financial services group.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/huobi_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x6f259637dcd74c767781e37bc6133cd6a68aa161">HuobiToken (HT)</a></td><td>&nbsp;<span style="margin-left:-4px">$1.5719</span><br><font size="1">0.00024427&nbsp;Btc<br>0.007400&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.29%</font></td><td>$5,314,005</td><td>$78,596,379&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;33</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xe0b7927c4af23765cb51314a0e0521a9645f0e2a"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/digix_dgd_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xe0b7927c4af23765cb51314a0e0521a9645f0e2a">DGD (DGD)</a></h5><small class="hex hidden-xs"><font color="gray">DigixDAO is a decentralized voting / utility token that allows users to submit and manage proposals that relate to the growth of the Digix ecosystem and platform.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/digix_dgd_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xe0b7927c4af23765cb51314a0e0521a9645f0e2a">DGD (DGD)</a></td><td>&nbsp;<span style="margin-left:-4px">$39.1338</span><br><font size="1">0.00608119&nbsp;Btc<br>0.184237&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.88%</font></td><td>$455,862</td><td>$78,267,515&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;34</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x618e75ac90b12c6049ba3b27f5d5f8651b0037f6"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/qash_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x618e75ac90b12c6049ba3b27f5d5f8651b0037f6">QASH (QASH)</a></h5><small class="hex hidden-xs"><font color="gray">We envision QASH to be the preferred payment token for financial services,
+like the Bitcoin for financial services.
+As more financial institutions, fintech startups and partners adopt QASH
+as a method of payment, the utility of QASH will scale, fueling
+the Fintech revolution.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/qash_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x618e75ac90b12c6049ba3b27f5d5f8651b0037f6">QASH (QASH)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.2223</span><br><font size="1">0.00003455&nbsp;Btc<br>0.001047&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.13%</font></td><td>$4,438,988</td><td>$77,818,188&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;35</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/veritaseum.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374">Veritaseum (VERI)</a></h5><small class="hex hidden-xs"><font color="gray">Veritaseum builds blockchain-based, peer-to-peer capital markets as software on a global scale.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/veritaseum.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374">Veritaseum (VERI)</a></td><td>&nbsp;<span style="margin-left:-4px">$35.0830</span><br><font size="1">0.00545173&nbsp;Btc<br>0.165167&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.79%</font></td><td>$737,788</td><td>$71,451,710&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;36</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/polymath_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec">Polymath (POLY)</a></h5><small class="hex hidden-xs"><font color="gray">Polymath aims to enable securities to migrate to the blockchain.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/polymath_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec">Polymath (POLY)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.2497</span><br><font size="1">0.00003880&nbsp;Btc<br>0.001175&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -4.77%</font></td><td>$2,612,124</td><td>$71,388,905&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;37</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/dai_stablecoin.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359">Dai Stablecoin v1.0 (DAI)</a></h5></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/dai_stablecoin.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359">Dai Stablecoin v1.0 (DAI)</a></td><td>&nbsp;<span style="margin-left:-4px">$1.0051</span><br><font size="1">0.00015618&nbsp;Btc<br>0.004732&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 0.28%</font></td><td>$4,044,351</td><td>$71,232,822&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;38</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xb63b606ac810a52cca15e44bb630fd42d8d1d83d"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/cryptocom_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xb63b606ac810a52cca15e44bb630fd42d8d1d83d">Crypto.com (MCO)</a></h5><small class="hex hidden-xs"><font color="gray">Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the world’s transition to cryptocurrency.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/cryptocom_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xb63b606ac810a52cca15e44bb630fd42d8d1d83d">Crypto.com (MCO)</a></td><td>&nbsp;<span style="margin-left:-4px">$4.3854</span><br><font size="1">0.00068501&nbsp;Btc<br>0.020646&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 2.73%</font></td><td>$6,222,977</td><td>$69,262,927&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;39</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/loom_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0">Loom (LOOM)</a></h5><small class="hex hidden-xs"><font color="gray">Online game &amp; social apps</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/loom_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0">Loom (LOOM)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.1143</span><br><font size="1">0.00001776&nbsp;Btc<br>0.000538&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.29%</font></td><td>$3,240,070</td><td>$68,840,191&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;40</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/Dentacoin.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6">Dentacoin (Dentacoin)</a></h5><small class="hex hidden-xs"><font color="gray">Aims to be the blockchain solution for the global dental industry.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/Dentacoin.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6">Dentacoin (Dentacoin)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.0002</span><br><font size="1">0.00000003&nbsp;Btc<br>0.000001&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -3.07%</font></td><td>$57,742</td><td>$66,883,559&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;41</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xf85feea2fdd81d51177f6b8f35f0e6734ce45f5f"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/cybermiles_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xf85feea2fdd81d51177f6b8f35f0e6734ce45f5f">CyberMiles (CMT)</a></h5><small class="hex hidden-xs"><font color="gray">Empowering the Decentralization of Online Marketplaces.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/cybermiles_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xf85feea2fdd81d51177f6b8f35f0e6734ce45f5f">CyberMiles (CMT)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.0872</span><br><font size="1">0.00001355&nbsp;Btc<br>0.000411&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -2.34%</font></td><td>$1,368,595</td><td>$66,684,105&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;42</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x9195e00402abe385f2d00a32af40b271f2e87925"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/etheera2_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x9195e00402abe385f2d00a32af40b271f2e87925">ETHEERA (ETA)</a></h5><small class="hex hidden-xs"><font color="gray">Real estate for the blockchain</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/etheera2_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x9195e00402abe385f2d00a32af40b271f2e87925">ETHEERA (ETA)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.0113</span><br><font size="1">0.00000175&nbsp;Btc<br>0.000053&nbsp;Eth</font><br><br></td><td>--</td><td>$0</td><td>$66,042,119&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;43</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x419d0d8bdd9af5e606ae2232ed285aff190e711b"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/FunFair.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x419d0d8bdd9af5e606ae2232ed285aff190e711b">FunFair (FUN)</a></h5><small class="hex hidden-xs"><font color="gray">FunFair is a decentralised gaming platform powered by Ethereum smart contracts</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/FunFair.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x419d0d8bdd9af5e606ae2232ed285aff190e711b">FunFair (FUN)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.0123</span><br><font size="1">0.00000192&nbsp;Btc<br>0.000058&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.93%</font></td><td>$1,246,060</td><td>$63,835,480&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;44</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x5d65D971895Edc438f465c17DB6992698a52318D"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/nebulas_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x5d65D971895Edc438f465c17DB6992698a52318D">Nebulas (NAS)</a></h5><small class="hex hidden-xs"><font color="gray">Decentralized Search Framework</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/nebulas_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x5d65D971895Edc438f465c17DB6992698a52318D">Nebulas (NAS)</a></td><td>&nbsp;<span style="margin-left:-4px">$1.4011</span><br><font size="1">0.00021772&nbsp;Btc<br>0.006596&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -1.95%</font></td><td>$4,484,543</td><td>$63,750,331&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;45</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x595832f8fc6bf59c85c527fec3740a1b7a361269"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/powerledger_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x595832f8fc6bf59c85c527fec3740a1b7a361269">PowerLedger (POWR)</a></h5><small class="hex hidden-xs"><font color="gray">Power Ledger is a peer-to-peer marketplace for renewable energy.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/powerledger_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x595832f8fc6bf59c85c527fec3740a1b7a361269">PowerLedger (POWR)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.1620</span><br><font size="1">0.00002517&nbsp;Btc<br>0.000763&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 1.11%</font></td><td>$1,643,804</td><td>$63,170,285&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;46</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x17aa18a4b64a55abed7fa543f2ba4e91f2dce482"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/insightchain28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x17aa18a4b64a55abed7fa543f2ba4e91f2dce482">Insight Chain (INB)</a></h5><small class="hex hidden-xs"><font color="gray">Insight Chain is an EOS-based data ecosystem on the blockchain, works on building Wall Street-like financial order in the blockchain domain.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/insightchain28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x17aa18a4b64a55abed7fa543f2ba4e91f2dce482">Insight Chain (INB)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.3683</span><br><font size="1">0.00005723&nbsp;Btc<br>0.001734&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 8.27%</font></td><td>$15,653,685</td><td>$62,774,100&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;47</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x3883f5e181fccaf8410fa61e12b59bad963fb645"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/theta_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x3883f5e181fccaf8410fa61e12b59bad963fb645">Theta Token (THETA)</a></h5><small class="hex hidden-xs"><font color="gray">A decentralized peer-to-peer network that aims to offer improved video delivery at lower costs.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/theta_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x3883f5e181fccaf8410fa61e12b59bad963fb645">Theta Token (THETA)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.0876</span><br><font size="1">0.00001361&nbsp;Btc<br>0.000412&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -1.14%</font></td><td>$655,488</td><td>$61,875,678&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;48</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xB97048628DB6B661D4C2aA833e95Dbe1A905B280"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/tenx_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xB97048628DB6B661D4C2aA833e95Dbe1A905B280">TenXPay (PAY)</a></h5><small class="hex hidden-xs"><font color="gray">TenX connects your blockchain assets for everyday use. TenX’s debit card and banking licence will allow us to be a hub for the blockchain ecosystem to connect for real-world use cases.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/tenx_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xB97048628DB6B661D4C2aA833e95Dbe1A905B280">TenXPay (PAY)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.5592</span><br><font size="1">0.00008690&nbsp;Btc<br>0.002633&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.71%</font></td><td>$633,993</td><td>$61,151,562&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;49</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/dragonchain_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e">Dragon (DRGN)</a></h5><small class="hex hidden-xs"><font color="gray">Dragonchain simplifies the integration of real business applications onto a blockchain.</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/dragonchain_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e">Dragon (DRGN)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.2294</span><br><font size="1">0.00003565&nbsp;Btc<br>0.001080&nbsp;Eth</font><br><br></td><td><font color="red" class="text-nowrap"><i class="fa fa-caret-down"></i> -0.05%</font></td><td>$1,096,141</td><td>$54,692,084&nbsp;&nbsp;&nbsp;</td></tr><tr><td><b><span style="position:relative; top:8px">&nbsp;50</span></b></td><td align="center" class="hidden-xs"><a href="https://etherscan.io/token/0xbf52f2ab39e26e0951d2a02b49b7702abe30406a"><img style="position:relative; top:6px" width="20px" class="rounded-x" src="./etherscan_files/odem_28.png"></a></td><td class="hidden-xs"><h5 style="margin-bottom:4px"><a href="https://etherscan.io/token/0xbf52f2ab39e26e0951d2a02b49b7702abe30406a">ODEM Token (ODEM)</a></h5><small class="hex hidden-xs"><font color="gray">Unlocking Higher Education</font></small></td><td class="visible-xs"><img style="position:relative; top:6px" width="15px" class="rounded-x" src="./etherscan_files/odem_28.png"> <a style="position:relative; top:8px" href="https://etherscan.io/token/0xbf52f2ab39e26e0951d2a02b49b7702abe30406a">ODEM Token (ODEM)</a></td><td>&nbsp;<span style="margin-left:-4px">$0.2452</span><br><font size="1">0.00003811&nbsp;Btc<br>0.001155&nbsp;Eth</font><br><br></td><td><font color="green" class="text-nowrap"><i class="fa  fa-caret-up"></i> 10.91%</font></td><td>$708,105</td><td>$53,460,869&nbsp;&nbsp;&nbsp;</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="row">
+<div class="col-md-12">
+<p align="right">
+<span style="white-space: nowrap; display: inline-block"><a class="btn btn-primary btn-xs " disabled="disabled " href="https://etherscan.io/tokens#">First</a> <a class="btn btn-primary btn-xs" disabled="disabled " href="https://etherscan.io/tokens#">Prev</a> <span style="padding: 2px 4px 4px 3px; border: 1px solid #D4D4D4; line-height: 30px; background-color: #EAEAEA; margin-top: 2px; height: 2px;">Page <b>1</b> of <b>16</b></span> <a class="btn btn-default btn-xs logout" href="https://etherscan.io/tokens?p=2">Next</a> <a class="btn btn-default btn-xs logout" href="https://etherscan.io/tokens?p=16">Last</a> </span>
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12" style="padding-top: 15px">
+</div>
+</div>
+<br>
+</div>
+<br><br>
+<script type="text/javascript">
+        $(document).ready(function () {
+            (function ($) {
+                $.fn.customAutocomplete = function () {
+                    this.autocomplete({
+                        source: function (request, response) {
+                            var searchTerm = request.term;
+                            $.ajax({
+                                dataType: "json",
+                                type: 'Get',
+                                url: '/searchHandler?t=t',
+                                data: { term: searchTerm },
+                                success: function (data) {
+                                    response($.map(data, function (item) {
+                                        return {
+                                            label: item.split('\t')[0],
+                                            value: item.split('\t')[1],
+                                            desc: item.split('\t')[2],
+                                            typeval: item.split('\t')[3],
+                                            checkMark: item.split('\t')[4],
+                                            logo: item.split('\t')[5]
+                                        }
+                                    }));
+                                },
+                                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                                    console.log(textStatus);
+                                }
+                            });
+                        },
+                        autoFocus: true,
+                        delay: 100,
+                        minLength: 1,
+                        select: function (event, ui) {
+                            event.preventDefault();
+                            var typeval = ui.item.typeval;
+                            $(this).val(ui.item.label);
+                            if (typeval == 1) {
+                                window.location.href = '/token/' + ui.item.label;
+                            } else if (typeval == 2) {
+                                window.location.href = '/token/' + ui.item.value;
+                            } else if (typeval == 4) {
+                                window.location.href = '/token/' + ui.item.label;
+                            }
+                        }
+                    }).data("ui-autocomplete")._renderItem = function (ul, item) {
+                        var tickMark = '';
+                        var imglogo = '';
+                        if (item.checkMark == '1') {
+                            tickMark = "<i class='fa fa-check-square pull-right' title='Official' style='color:#33A5FF'></i>";
+                        }
+                        if (item.logo != '') {
+                            imglogo = "<img src='/token/images/" + item.logo + "' width='14' style='margin-top:-3px'> ";
+                        }
+                        return $("<li>")
+                            .append("<div>" + imglogo + item.label.substring(0, 28) + tickMark + "<br><font size='1'>" + item.desc + "</font></div>")
+                            .appendTo(ul);
+                    };;
+                    return this;
+                };
+            })(jQuery);
+            var urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.has('l') == false) {
+                $("#searchtoken").customAutocomplete();
+            }
+        });
+    </script>
+<script type="text/javascript">
+            $(function () {
+                $("[rel='tooltip']").tooltip({ html: true });
+            });
+    </script>
+<div id="push"></div>
+
+</div>
+<div class="footer-v1">
+<div class="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-3 map-img md-margin-bottom-40">
+<a href="http://www.ethereum.org/" target="_blank" rel="nofollow">
+<img id="logo-footer" class="footer-logo" src="./etherscan_files/Powered-by-Ethereum-small.png" alt=""></a>
+<p style="font-family:&#39;Open Sans&#39;,sans-serif; font-size: 12px; color: #C0C0C0;">Etherscan is a Block Explorer and Analytics Platform for Ethereum, a decentralized smart contracts platform.</p>
+</div>
+<div class="col-md-6 md-margin-bottom-40 hidden-xs">
+<div class="headline">
+<h2>Latest Discussions</h2>
+<a href="https://etherscan.io/comments"><span class="pull-right" style="color: #C0C0C0; margin-top: 8px; ">[View More]</span></a>
+</div>
+<ul class="list-unstyled link-list">
+<li><img src="./etherscan_files/comment-white.png">&nbsp;&nbsp;<a href="http://etherscan.io/address/0x2167f0f96499808e0b62af7b2a0ee5cafc573a25#comments">Почему рекламы нет?</a><i class="fa fa-angle-right"></i></li><li><img src="./etherscan_files/comment-white.png">&nbsp;&nbsp;<a href="http://etherscan.io/address/0xef017fa5058ee79133af407d382df2da3c21c50f#comments">Залил 2 eth,полет отличный !)</a><i class="fa fa-angle-right"></i></li><li><img src="./etherscan_files/comment-white.png">&nbsp;&nbsp;<a href="http://etherscan.io/address/0xefe58cf0d873f58de112576e250dc52bbb3b0331#comments">Hello, I dont received my tokens.
+my wallet metamask: ...</a><i class="fa fa-angle-right"></i></li><li><img src="./etherscan_files/comment-white.png">&nbsp;&nbsp;<a href="https://etherscan.io/token/0x48ff53777f747cfb694101222a944de070c15d36#comments">Hi, I recently started playing this game, is there any g...</a><i class="fa fa-angle-right"></i></li>
+</ul>
+</div>
+<div class="col-md-3 md-margin-bottom-40">
+<div class="headline">
+<h2>Links</h2>
+</div>
+<address class="md-margin-bottom-40">
+<table>
+<tbody><tr>
+<td><i class="fa fa-envelope"></i>&nbsp;</td><td>&nbsp;<a href="https://etherscan.io/contactus">Contact Us</a></td>
+</tr>
+<tr>
+<td><i class="fa fa-reddit-square"></i></td><td>&nbsp;<a href="https://www.reddit.com/r/etherscan/" target="_blank">Forum</a></td>
+</tr>
+<tr>
+<td><i class="fa fa-twitter"></i></td><td>&nbsp;<a href="https://twitter.com/etherscan" target="_blank">Twitter</a></td>
+</tr>
+<tr>
+<td><i class="fa fa-pencil-square-o"></i></td><td>&nbsp;<a href="https://etherscancom.freshdesk.com/support/solutions" target="_blank">Knowledge Base</a></td>
+</tr>
+<tr>
+<td><i class="fa  fa-users"></i></td><td>&nbsp;<a href="https://etherscan.io/aboutus">About Us</a></td>
+</tr>
+<tr>
+<td><i class="fa  fa-file-text-o"></i></td><td>&nbsp;<a href="https://etherscan.io/terms">Terms of Service</a></td>
+</tr>
+</tbody></table>
+</address>
+</div>
+</div>
+</div>
+</div>
+<div class="copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+<p style="font-family:&#39;Open Sans&#39;,sans-serif; font-size: 11px; color: #C0C0C0;">Etherscan © 2018 (C)
+|<a href="https://etherscan.io/contactus?id=3">Advertising</a>
+| Donations <a href="https://etherscan.io/address/0x71c7656ec7ab88b098defb751b7401b5f6d8976f">0x71c7656ec7ab88b098defb751b7401b5f6d8976f</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="divcookie" class="navbar navbar-default navbar-fixed-bottom" style="display: flex; background-color: rgb(166, 172, 175); opacity: 0.95; justify-content: space-between; align-items: center; flex-wrap: nowrap;">
+<div class="container">
+<p class="navbar-text pull-left" style="color:white">This Website <a href="https://etherscan.io/terms#cookiestatement" target="_blank"><font color="#3392FF"><b>uses cookies to improve your experience</b></font></a> And has an updated
+<a href="https://etherscan.io/privacyPolicy"><font color="#3392FF"><b>Privacy Policy</b></font></a>.
+</p>
+</div>
+<div class="container"><button id="btnCookie" style="border-color: rgb(0, 0, 0); border-width:1px" class="pull-right">Got It</button></div>
+</div>
+<script type="text/javascript" src="./etherscan_files/bootstrap.min.js"></script>
+<script type="text/javascript" src="./etherscan_files/combine-js-bottom.js"></script>
+<script type="text/javascript">
+    var cookieconsent = getCookie("etherscan_cookieconsent");
+    if (cookieconsent != "True") {                
+       document.getElementById("divcookie").style.display = "flex";            
+    };
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+    $("#btnCookie").click(function () { 
+        $("#divcookie").fadeOut("slow", function () {
+            var d = new Date();
+            d.setTime(d.getTime() + (1095 * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = "etherscan_cookieconsent=True" + ";" + expires + ";path=/";;
+        });       
+    });    
+</script>
+<link rel="Stylesheet" href="./etherscan_files/jquery-ui.min.css" type="text/css">
+
+
+<ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div id="topcontrol" title="Scroll Back to Top" style="position: fixed; bottom: 5px; right: 5px; opacity: 0; cursor: pointer;"></div><ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-3" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div></body></html>
